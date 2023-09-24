@@ -12,17 +12,6 @@ items.forEach(item => {
 });
 
 
-const categoryList = document.querySelector('#categories');
-const items = document.querySelector('.item');
-
-categoryList.addEventListener('mouseover', changeColor);
-
-function changeColor() {
-    const randomColor = getRandomHexColor();
-    categoryList.textContent = randomColor;
-    items.textContent = randomColor;
-    
-};
 
 
 
